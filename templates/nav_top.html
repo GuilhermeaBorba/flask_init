@@ -1,0 +1,63 @@
+<div class="tm-navbar-wrapper-animate tm-navbar-wrapper" data-uk-sticky="{media: 767,top: -250,clsinactive: 'tm-navbar-wrapper'}" style="margin: 0px;">
+    <div class="tm-navbar uk-navbar">
+
+        <div class="uk-container uk-container-center tm-navbar-container">
+
+                        <div class="tm-navbar-left uk-flex uk-flex-middle">
+
+                                <a class="uk-navbar-brand uk-flex uk-flex-middle uk-hidden-small" href="/" style="font-family: Arial;">
+  <img src="{{ url_for('static', filename='images/logo.svg') }}" width="120" alt="Demo" class="uk-margin-small-right" style="font-family: Arial;"></a>
+
+                                <a class="tm-logo-small uk-visible-small" href="/">
+  <img src="{{ url_for('static', filename='images/logo.svg') }}" width="50" alt="Demo"></a>
+
+            </div>
+
+            <div class="tm-navbar-center uk-flex uk-flex-center uk-hidden-small uk-hidden-medium">
+              <ul class="uk-navbar-nav uk-hidden-small">
+                <li class="uk-parent uk-active"><a href="/acompanhamento" style="font-family: Arial;">Acompanhamento</a></li>
+                <li class="uk-parent"><a href="/financeiro" style="font-family: Arial;">Financeiro</a></li>
+                <li class="uk-parent"><a href="/promocoes" style="font-family: Arial;">Promoções</a>
+                <li class="uk-parent"><a href="/relatorios" style="font-family: Arial;">Relatórios</a>
+                <li class="uk-parent"><a href="/usuarios" style="font-family: Arial;">Usuários</a>
+                </ul>
+              </div>
+
+                        <div class="tm-navbar-right uk-flex uk-flex-middle">
+
+                                <div class="tm-search uk-hidden-small">
+                    <div data-uk-dropdown="{mode:'click', pos:'left-center'}">
+                        <button class="tm-navbar-button tm-search-button"></button>
+                        <div class="uk-dropdown-blank tm-navbar-dropdown">
+
+<form id="search-40" class="uk-search" action="/avanti/index.php" method="post" role="search" data-uk-search="{'source': '/avanti/index.php/component/search/?tmpl=raw&amp;type=json&amp;ordering=&amp;searchphrase=all', 'param': 'searchword', 'msgResultsHeader': 'Search Results', 'msgMoreResults': 'More Results', 'msgNoResults': 'No results found', flipDropdown: 1}">
+    <input class="uk-search-field" type="text" name="searchword" placeholder="search..." style="font-family: Arial;">
+    <input type="hidden" name="task" value="search">
+    <input type="hidden" name="option" value="com_search">
+    <input type="hidden" name="Itemid" value="261">
+</form>
+                        </div>
+                    </div>
+                </div>
+
+                                <div class="tm-more uk-hidden-small">
+                    <div data-uk-dropdown="{mode:'click', pos:'left-center'}">
+                      <button class="tm-navbar-button tm-more-button"></button>
+                      <div class="uk-dropdown-blank tm-navbar-dropdown">
+                        <div class="">
+  <a href="/avanti/index.php/company" class="uk-margin-small-right uk-icon-hover uk-icon-small uk-icon-twitter"></a>
+<a href="/avanti/index.php/company" class="uk-margin-small-right uk-icon-hover uk-icon-small uk-icon-pinterest"></a>
+<a href="/avanti/index.php/company" class="uk-margin-small-right uk-icon-hover uk-icon-small uk-icon-facebook"></a>
+<a href="/avanti/index.php/company" class="uk-margin-small-right uk-icon-hover uk-icon-small uk-icon-instagram"></a>
+<a href="/avanti/index.php/company" class="uk-margin-small-right uk-icon-hover uk-icon-small uk-icon-youtube-play"></a></div>                    	</div>
+                    </div>
+                </div>
+
+                                <a href="#offcanvas" class="uk-navbar-toggle uk-hidden-large" data-uk-offcanvas=""></a>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
